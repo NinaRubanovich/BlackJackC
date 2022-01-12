@@ -53,7 +53,7 @@ int dealerGetsAce(int* dealerTotal) {
 	return chosenAceValue;
 }
 
-/* called when a player's card value is Ace. Updates the player's total 
+/* Called when a player's card value is Ace. Updates the player's total 
 based on the value chosen. */
 void userGetsAce(int* playerTotal) {
 	int chosenAceValue = 0;
